@@ -1,0 +1,35 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "Setup intergration with textbelt!",
+                "data": {
+                    "name": "Name",
+                    "api_key": "[%key:common::config_flow::data::api_key%]",
+                    "url": "[%key:common::config_flow::data::url%]"
+                },
+                "data_description": {
+                    "api_key": "The textbelt api key (can be found here https://textbelt.com/)"
+                }
+            }
+        },
+        "error": {},
+        "abort": {}
+    },
+    "services": {
+        "send_text": {
+            "name": "Send Text",
+            "description": "Send text message with textbelt",
+            "fields": {
+                "phone": {
+                    "name": "Phone Number",
+                    "description": "Phone to where we send the text message."
+                },
+                "message": {
+                    "name": "[%key:common::config_flow::data::message%]",
+                    "description": "Text message we want to send."
+                }
+            }
+        }
+    }
+}

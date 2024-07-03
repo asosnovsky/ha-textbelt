@@ -1,0 +1,16 @@
+send_text:
+  target:
+    entity:
+      domain: sensor
+      integration: ha_textbelt
+  fields:
+    phone:
+      required: true
+      example: "18888888"
+      selector:
+        text:
+    message:
+      required: true
+      example: "Hello World"
+      selector:
+        text:

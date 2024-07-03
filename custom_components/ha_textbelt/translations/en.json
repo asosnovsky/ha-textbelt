@@ -1,0 +1,34 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Enter you textbelt information",
+                "data": {
+                    "name": "Name",
+                    "api_key": "API Key",
+                    "url": "URL for Textbelt"
+                },
+                "data_description": {
+                    "name": "Name to remember the API KEY by (defaults to a random string).",
+                    "api_key": "The textbelt api key (can be found here https://textbelt.com/)"
+                }
+            }
+        }
+    },
+    "services": {
+        "send_text": {
+            "name": "Send Text",
+            "description": "Send text message with textbelt",
+            "fields": {
+                "phone": {
+                    "name": "Phone Number",
+                    "description": "Phone to where we send the text message."
+                },
+                "message": {
+                    "name": "Text Message",
+                    "description": "Text message we want to send."
+                }
+            }
+        }
+    }
+}
