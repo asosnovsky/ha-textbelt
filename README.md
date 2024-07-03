@@ -1,4 +1,5 @@
 ![Release](https://img.shields.io/github/v/release/asosnovsky/ha-textbelt?style=for-the-badge)
+<a href='https://ko-fi.com/J3J8C4RB7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/logo_black_transparent.png">
